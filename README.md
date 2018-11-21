@@ -1,3 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). 
+Decentralised twitter, will let you to tweet to Blockchain,EOS.Every tweet you make be on open blockchain.
 
 
