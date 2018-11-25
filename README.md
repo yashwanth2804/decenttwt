@@ -202,8 +202,9 @@ edit .env file to your fit
 For `.env` in backend you may leave as it is 
 
 
+## Code in acction 🏃🏃
 
-
-
+[![Eos demo video](https://img.youtube.com/vi/PWVDlGKYahs/0.jpg)](https://www.youtube.com/watch?v=PWVDlGKYahs&feature=youtu.be)
+ 
 
 
