@@ -1,0 +1,136 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Wed Oct 10 09:49:17 2018",
+    "version": "eosio::abi/1.0",
+    "structs": [
+        {
+            "name": "comment_struct",
+            "base": "",
+            "fields": [
+                {
+                    "name": "pkey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "author",
+                    "type": "uint64"
+                },
+                {
+                    "name": "skey",
+                    "type": "uint128"
+                }
+            ]
+        },
+        {
+            "name": "commentpost",
+            "base": "",
+            "fields": [
+                {
+                    "name": "timestamp",
+                    "type": "uint64"
+                },
+                {
+                    "name": "author",
+                    "type": "name"
+                },
+                {
+                    "name": "comment",
+                    "type": "string"
+                },
+                {
+                    "name": "postid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "createpost",
+            "base": "",
+            "fields": [
+                {
+                    "name": "timestamp",
+                    "type": "uint64"
+                },
+                {
+                    "name": "author",
+                    "type": "name"
+                },
+                {
+                    "name": "tweet",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "likepost",
+            "base": "",
+            "fields": [
+                {
+                    "name": "timestamp",
+                    "type": "uint64"
+                },
+                {
+                    "name": "author",
+                    "type": "name"
+                },
+                {
+                    "name": "postid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "tweet_struct",
+            "base": "",
+            "fields": [
+                {
+                    "name": "pkey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "author",
+                    "type": "uint64"
+                },
+                {
+                    "name": "skey",
+                    "type": "uint128"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "commentpost",
+            "type": "commentpost",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "createpost",
+            "type": "createpost",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "likepost",
+            "type": "likepost",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "comments",
+            "type": "comment_struct",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "posts",
+            "type": "tweet_struct",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "abi_extensions": []
+}

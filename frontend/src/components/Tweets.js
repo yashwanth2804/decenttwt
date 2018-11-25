@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Icon, Feed, Grid, Label, Image, Button, Divider, Form } from 'semantic-ui-react'
+import { Icon, Feed, Grid, Label, Image, Button, Divider, Form,Container } from 'semantic-ui-react'
 import ModelCtr from './ModelCtr'
 import Postcomment from './Postcomment'
 
@@ -29,9 +29,9 @@ hit = (id,author,timestamp) => {
    
   return(
      
-
-    <Grid.Row centered={true} key={idx}  >
-    <Feed>
+   
+    <Grid.Row centered={true} key={idx}   className="four wide column"     >
+    <Feed  >
       <Feed.Event>
         <Feed.Label image='/images/avatar/small/joe.jpg' />
         <Feed.Content>
@@ -67,7 +67,7 @@ hit = (id,author,timestamp) => {
     </Form>
 
   </Grid.Row>
-
+  
   )
 
 });

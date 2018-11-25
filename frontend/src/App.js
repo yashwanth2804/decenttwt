@@ -4,10 +4,13 @@ import { connect } from 'react-redux';
 
 import * as actionCreators from './actions/index';
 import EOSIOClient from './utils/eosio-client';
-
+import { Input, Menu, Container, Header, Divider, Grid, Label,Feed,Button,Form,Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 import Tweet from './components/Tweet';
-require('dotenv').config({ path: 'frontend/.env' })
+import Createtweet from './components/Createtweet';
+
+require('dotenv').config({ path: 'frontend/.env' });
+
 
 class App extends Component {
  
@@ -32,7 +35,24 @@ class App extends Component {
   render() {
     return (
       <div > 
+      <Menu pointing secondary>
+      <Menu.Item name='home'  onClick={this.handleItemClick} />
+    
+      <Menu.Menu position='right'>
+        <Menu.Item>
+          <Input icon='search' placeholder='Search...' />
+        </Menu.Item>
+        <Menu.Item
+          name='logout'
+         
+        />
+      </Menu.Menu>
+    </Menu>
+      <Container>
+      <Createtweet/>
+      <br/>
       <Tweet/>
+      </Container>
       </div>
     );
   }

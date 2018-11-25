@@ -28,6 +28,10 @@ class PostCmt extends Component {
       } 
 
     render() {
+        var divStyle = {
+            width: '500px',
+           
+          };
      return (
             
             <div>
@@ -41,6 +45,8 @@ class PostCmt extends Component {
               <TextArea
               value={this.state.commentST}
               onChange={event => this.handleOnchange(event)}
+              style={divStyle}
+              
           />
               </Form>
             </Grid.Column>
