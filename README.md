@@ -205,6 +205,5 @@ For `.env` in backend you may leave as it is
 ## Code in acction 🏃🏃
 
 [![Eos demo video](https://img.youtube.com/vi/PWVDlGKYahs/0.jpg)](https://www.youtube.com/watch?v=PWVDlGKYahs&feature=youtu.be)
- 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PWVDlGKYahs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 
